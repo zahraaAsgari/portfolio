@@ -11,6 +11,7 @@ import Image2 from "../../public/photosite1.jpg";
 import Image3 from "../../public/image.png";
 import Image4 from "../../public/e-commerce.png";
 import Image5 from "../../public/recipe.png";
+import Image6 from "../../public/dashboard.png";
 
 
 export const links = [
@@ -67,6 +68,12 @@ export const projectsData = [
     demo:"https://food-recipes-one-pi.vercel.app/",
     git:"https://github.com/zahraaAsgari/Food-Recipes_React_API",
     imageUrl: Image5,
+  },
+  {
+    title: "Dashboard",
+    git:"https://github.com/zahraaAsgari/dashboard",
+    demo:"https://dashboard-six-eosin-66.vercel.app/",
+    imageUrl: Image6,
   },
 ] as const;
 
