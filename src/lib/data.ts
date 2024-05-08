@@ -44,36 +44,43 @@ export const projectsData = [
     git:"https://github.com/zahraaAsgari/Food-Recipes_React_API",
     demo:"https://zahraaasgari.github.io/tourify/",
     imageUrl: Image1,
+    desc:"Explore our tourism website, crafted with HTML, CSS, and JavaScript. Discover stunning destinations, plan your next adventure, and immerse yourself in the beauty of nature."
   },
   {
     title: "Metaverse",
     git:"https://github.com/zahraaAsgari/Food-Recipes_React_API",
     demo:"https://metaverse-navy.vercel.app/",
     imageUrl: Image2,
+      desc:"Experience the Metaverse website, an immersive platform built with Next.js and enhanced with advanced animations powered by Framer Motion. Explore the cutting-edge features of Next.js while enjoying seamless transitions and interactive elements crafted with Framer Motion."
+
   },
   {
     title: "Real State",
     git:"https://github.com/zahraaAsgari/Food-Recipes_React_API",
     demo:"https://homeland-sandy.vercel.app/",
     imageUrl: Image3,
+      desc:"Discover your dream home on our React and Tailwind CSS website, powered by the Fetch API for seamless property listing retrieval.Find your perfect match with ease and style."
   },
   {
     title: "E-Commerce",
     git:"https://github.com/zahraaAsgari/Food-Recipes_React_API",
     demo:"https://e-commerce-olive-six.vercel.app/",
     imageUrl: Image4,
+      desc:"The E-commerce website, developed with React, empowers users to customize their shopping experience by effortlessly adding and deleting options to their cart. Enjoy a dynamic interface designed for intuitive navigation and seamless shopping."
   },
   {
     title: "Food Recipies",
     demo:"https://food-recipes-one-pi.vercel.app/",
     git:"https://github.com/zahraaAsgari/Food-Recipes_React_API",
     imageUrl: Image5,
+      desc:"Explore our tourism website, crafted with HTML, CSS, and JavaScript. Discover stunning destinations, plan your next adventure, and immerse yourself in the beauty of nature."
   },
   {
     title: "Dashboard",
     git:"https://github.com/zahraaAsgari/dashboard",
     demo:"https://dashboard-six-eosin-66.vercel.app/",
     imageUrl: Image6,
+      desc:"Our Dashboard project, developed with React, SCSS, and Recharts, provides intuitive data management and visualization features. It offers a sleek and responsive interface, powered by React's Context API for state management."
   },
 ] as const;
 

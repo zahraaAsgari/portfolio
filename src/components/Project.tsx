@@ -7,7 +7,7 @@ import Link from "next/link";
 
 type ProjectProps = (typeof projectsData)[number];
 
-const Project = ({ title, git, imageUrl, demo }: ProjectProps) => {
+const Project = ({ title, git, imageUrl, demo,desc }: ProjectProps) => {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -30,9 +30,10 @@ const Project = ({ title, git, imageUrl, demo }: ProjectProps) => {
                 <Image src={imageUrl}
                 alt ={title}
                 quality={95}
-                 className="w-[100%] h-[100%] object-cover p-2 rounded-2xl"/>
+                 className="w-[100%] h-[100%] object-fill p-2 rounded-2xl"/>
                 <div className="flex flex-col items-center justify-between mb-2 gap-2">
-                 <h3 className="text-center mb-2 font-semibold leading-relaxed text-xl text-gray-700">{title}</h3>
+                 <h3 className="text-center mb-1 font-semibold leading-relaxed text-xl text-gray-700">{title}</h3>
+                 <p className="text-center text-sm text-gray-600 pb-1 px-2 leading-7">{desc}</p>
                  <div className="flex gap-2 flex-wrap mt-5 sm:mt-auto">
                    <a
                    className="bg-black/80 px-2 py-1 rounded-full uppercase tracking-wide text-white text-[.8rem] font-medium"
