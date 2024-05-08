@@ -16,7 +16,7 @@ const{setLastClickTime,setActiveLink}=useActiveSectionContext();
 
 
 return(
-    <section  ref={ref} id="home" className="p-3 flex-center flex-col relative scroll-mt-[100rem]" >
+    <section  ref={ref} id="home" className="p-3 flex-center flex-col relative " >
    
         <motion.div className="flex-center"
         initial={{opacity:0,scale:0}}
@@ -38,7 +38,7 @@ return(
           className="font-medium text-center text-2xl sm:text-2xl !leading-[1.5] pb-8"
         >
           Hi There, 
-        <span className="font-bold">I'm Zahra.</span>a<span className="font-bold">front-end developer</span> I enjoy
+        <span className="font-bold"> I am Zahra . </span>a&nbsp;<span className="font-bold">front-end developer</span> I enjoy
         building <span className="italic">sites & web apps</span>
         </motion.p>
         <motion.div
